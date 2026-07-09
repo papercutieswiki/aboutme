@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About me</title>
+    <style>
+        @font-face {
+            font-family: 'SF UI Display';
+            src: url('SFUIDisplay-Regular.ttf') format('opentype');
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            width: 1920px;
+            height: 1080px;
+            overflow: hidden;
+            position: relative;
+            font-family: 'SF UI Display', -apple-system, sans-serif;
+        }
+
+        .header-container {
+            position: relative;
+            width: 1920px;
+            height: 282px;
+        }
+
+        .header-image {
+            width: 1920px;
+            height: 282px;
+            display: block;
+            object-fit: cover;
+        }
+
+        .header-title {
+            position: absolute;
+            top: 50%;
+            left: 280px;
+            transform: translateY(-50%);
+            font-size: 36px;
+            color: #f0f0f0;
+            letter-spacing: 0.5px;
+        }
+
+        .content-text {
+            position: absolute;
+            top: 461px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 1360px;
+            height: 347px;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333333;
+        }
+
+        .content-text p {
+            margin: 0 0 20px 0;
+        }
+
+        .social-icons {
+            position: absolute;
+            bottom: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .icon-link {
+            color: #666666;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .icon-link:hover {
+            color: #000000;
+        }
+
+        .icon-link svg {
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-container">
+        <img src="lucianomasala2.png" alt="About me header" class="header-image">
+        <div class="header-title">About me</div>
+    </div>
+
+    <div class="content-text">
+        <p>I'm Luciano Masala, a musician, sound designer, and composer from Italy.<br>
+        I have 7 years of experience with composing, making various types of music, from Indie Pop, to EDM and Chiptune, to Orchestral and Folk.</p>
+        
+        <p>I'm based in a small town in Padua, Italy, although I'm planning to move out of the country in the near future.</p>
+        
+        <p>My stage name is "papercuties"; I write heartfelt songs that I produce and mix, and I have a small community of people who show interest in my work and are fans.<br>
+        Some of my tracks have been featured on Spotify's editorial playlists such as Fresh Finds Dance, and also supported directly by better-known artists,<br>
+        such as Tennyson, saaaz, Instupendo, & more...<br>
+        I also run 2 other aliases, with "marie" being a lofi hip/hop musical project, and "hershel" an ambient project which debuted recently with its first album.</p>
+        
+        <p>I work with Ableton Live 12 Suite, iZotope 10 Audio Editor, Max For Live and at times Audacity (mostly for raw data works).</p>
+        
+        <p>As of right now, I'm looking to gain new musical work experience, such as: working on videogame OSTs and SFX, scoring movie soundtracks,<br>
+        collaborating with more people and perhaps joining a team.</p>
+        
+        <p>I'm also a recent graduate from the music school "Conservatorio Cesare Pollini," specializing in Jazz Guitar.</p>
+    </div>
+
+    <div class="social-icons">
+        <a href="#spotify" class="icon-link" title="Spotify">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.586 14.424c-.18.295-.565.387-.86.207-2.377-1.454-5.37-1.783-8.893-.982-.336.075-.668-.135-.744-.47-.075-.336.135-.668.47-.743 3.856-.88 7
