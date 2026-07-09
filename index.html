@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About me</title>
+    <title>about me</title>
     <style>
         @font-face {
             font-family: 'SF UI Display';
@@ -47,12 +47,14 @@
             position: absolute;
             top: 380px;
             left: 50%;
-            transform: translateX(-50%);
             width: 1360px;
             height: 428px;
             font-size: 16px;
             line-height: 1.6;
             color: #333333;
+            
+            /* Fade in and slide from right to center */
+            animation: fadeSlideIn 1s ease-out forwards;
         }
 
         .content-text p {
@@ -85,13 +87,24 @@
             fill: currentColor;
             display: block;
         }
+
+        @keyframes fadeSlideIn {
+            0% {
+                opacity: 0;
+                transform: translate(-45%, -0.5%); 
+            }
+            100% {
+                opacity: 1;
+                transform: translate(-50%, 0); 
+            }
+        }
     </style>
 </head>
 <body>
 
     <div class="header-container">
         <img src="lucianomasala2.png" alt="About me header" class="header-image">
-        <div class="header-title">About me</div>
+        <div class="header-title">about me</div>
     </div>
 
     <div class="content-text">
